@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: #e5e5e5}
+  footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #76b9af;
+  text-align: center;
+}
+#circle {
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+}
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+</style>
   <title>3bru.github.io</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,15 +33,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <style>
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
-  </style>
+
 </head>
 <body>
-<div class="jumbotron text-center" style="margin-bottom:0" style="background-color:white">
+<div class="jumbotron text-center" style="margin-bottom:0" style="background-color:#add8d1">
   <h1>Ebru Arslan</h1>
 </div>
 
@@ -29,13 +48,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">Kişisel blog</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+        <li class="active"><a href="#">Hakkımda</a></li>
+        <li><a href="#">Merak ettiklerim</a></li>
+        <li><a href="#">github çalışmlarım</a></li>
       </ul>
     </div>
   </div>
@@ -45,20 +64,20 @@
   <div class="row">
     <div class="col-sm-4">
       <h2>About Me</h2>
-      <img src="images/mine.jpg" alt="Random Name" style="width:100%" style="height:100%">
+      <img src="images/profile.jpeg" alt="Random Name" style="width:100%" style="height:100%">
       <h3></h3>
       <p></p>
       <ul class="nav nav-pills nav-stacked">
         <li class="active"><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
       </ul>
       <hr class="hidden-sm hidden-md hidden-lg">
     </div>
     <div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
+      <h2>Tasarım Projesi</h2>
+      <h5>20/01/2019</h5>
+      <div>
+      <img src="images/poster.jpg" style="width:50%" style="height:%50">
+      </div>
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
       <br>
@@ -71,18 +90,30 @@
   </div>
 </div>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-  <a href="#"><i class="fa fa-facebook-official"></i></a>
-  <a href="#"><i class="fa fa-pinterest-p"></i></a>
-  <a href="#"><i class="fa fa-twitter"></i></a>
-  <a href="#"><i class="fa fa-flickr"></i></a>
-  <a href="#"><i class="fa fa-linkedin"></i></a>
-  <p class="w3-medium">
-  </p>
+<footer>
+  <!--Github-->
+  <a href="https://github.com/3bru">
+  <img id="circle" src="images/icons/github.ico"/>
+  </a>
+
+  <!--LinkedIn-->
+  <a href="https://www.linkedin.com/in/ebru-arslan-8b1896123/">
+  <img id="circle" src="images/icons/linkedin.ico"/>
+  </a>
+
+  <!--Twitter-->
+  <a href="https://twitter.com/ebrarslnn">
+  <img id="circle" src="images/icons/twiter.ico"/>
+  </a>
+
+  <!--Gmail-->
+  <a href="https://www.gmail.com/16ebruarslan@gmail.com">
+  <img id="circle" src="images/icons/gmail.ico"/>
+  </a>
+
+  <p>3bru 2019</p>
 </footer>
 
-</div>
 
 </body>
 </html>
