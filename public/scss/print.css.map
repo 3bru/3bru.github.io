@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "print.css",
-	"sourceRoot": "/home/ebru/Desktop/blog",
+	"sourceRoot": "/home/ebru/git/3bru.github.io",
 	"sources": [
 		"themes/triple-hyde/assets/scss/print.scss",
 		"themes/triple-hyde/assets/scss/triple-hyde/_variables.scss",
