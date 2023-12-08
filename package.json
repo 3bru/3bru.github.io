@@ -1,0 +1,12 @@
+{
+  "comments": {
+    "dependencies": {
+      "font-awesome": "project"
+    },
+    "devDependencies": {}
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {}
+}

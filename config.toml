@@ -1,0 +1,4 @@
+baseURL = 'https://3bru.github.io/'
+languageCode = 'en-us'
+title = 'Blog'
+theme = "personal-web"
