@@ -1,4 +1,4 @@
-baseURL = 'http://3bru.github.io/'
+baseURL = 'https://3bru.github.io/'
 languageCode = 'en-us'
 title = 'Blog'
 theme = "triple-hyde"
