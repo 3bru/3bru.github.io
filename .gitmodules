@@ -1,15 +1,3 @@
 [submodule "themes/personal-web"]
 	path = themes/personal-web
 	url = https://github.com/bjacquemet/personal-web.git
-[submodule "themes/personal-web"]
-	path = themes/personal-web
-	url = https://github.com/bjacquemet/personal-web.git
-[submodule "blog/themes/themes/triple-hyde"]
-	path = blog/themes/themes/triple-hyde
-	url = https://github.com/derme302/triple-hyde.git
-[submodule "blog/themes/triple-hyde"]
-	path = blog/themes/triple-hyde
-	url = https://github.com/derme302/triple-hyde.git
-[submodule "blog/themes/personal-web"]
-	path = blog/themes/personal-web
-	url = https://github.com/bjacquemet/personal-web.git
